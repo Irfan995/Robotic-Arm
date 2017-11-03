@@ -1,0 +1,148 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 08/20/17 by USER
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+swApp.ActivateDoc2 "Robot_Hand_paX_CGPdesign", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.130708599455926, 0.37382645007039178
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.0034396999856822633, 0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0.0034396999856822633, 0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, 0.0034613560191702943
+boolstatus = Part.Extension.SelectByID2("", "EDGE", -0.019546428012006345, 0.10653998171369494, -0.12076017957571139, False, 0, Nothing, 0)
+Part.OpenCompFile
+Set Part = swApp.OpenDoc6("G:\paX_MEGA\3DPrint\3DPritRUka\CGPdesignRobotHand\19.Duga_veza_stipaljke_paX_CGPdesign.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 28
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "19.Duga_veza_stipaljke_paX_CGPdesign", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("", "FACE", 0.0028999546253203334, 0, 0.0055529441830799442, False, 0, Nothing, 0)
+Part.FeatureManager.HideBodies
+Part.ClearSelection2 True
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.017198499928411316, -0.013845424076681177
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter 0, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.0068793999713645266, -0.010384068057510883
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.0034396999856822633, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.0068793999713645266, -0.0069227120383405887
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.017198499928411316, -0.010384068057510883
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013758799942729053, -0.0069227120383405887
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.010319099957046789, -0.0069227120383405887
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013758799942729053, -0.010384068057510883
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013758799942729053, -0.0069227120383405887
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.048155799799551681, -0.027690848153362355
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.196062899183889, -0.062304408345065301
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.041276399828187156, -0.013845424076681177
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.030957299871140369, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.034396999856822631, -0.010384068057510883
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.055035199770916213, -0.0069227120383405887
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.02407789989977584, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.020638199914093578, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.044716099813869425, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.041276399828187156, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.030957299871140369, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.010319099957046789, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.017198499928411316, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.027517599885458106, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.017198499928411316, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013758799942729053, -0.0034613560191702943
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.013758799942729053, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.055035199770916213, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.010319099957046789, 0
+Set myModelView = Part.ActiveView
+myModelView.RotateAboutCenter -0.0034396999856822633, 0
+' MSGBOX
+' Triangles: 6522
+' File Size: 326184 (Bytes)
+' File Format: Binary
+' Save C:\USERS\USER\DESKTOP\19.DUGA_VEZA_STIPALJKE_PAX_CGPDESIGN.STL?
+
+longstatus = Part.SaveAs3("C:\Users\USER\Desktop\19.Duga_veza_stipaljke_paX_CGPdesign.STL", 0, 0)
+' MSGBOX
+' Save changes to 19.Duga_veza_stipaljke_paX_CGPdesign?
+
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ExitApp
+End Sub
